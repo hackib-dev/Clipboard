@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.nav{
+    background: url(../images/bg-header-desktop.png) no-repeat;
+    background-size: cover;
+}
+
+
+p{
+    color:hsl(201, 11%, 66%);
+}
+
+.logo{
+ margin: 100px auto 50px auto;
+}
+
+.first_section p {
+    margin: auto 310px;
+}
+
+.second_section{
+    margin-top: 150px;
+}
+
+.second_section h1 {
+    margin: auto 80px;
+    font-size: 30px;
+}
+
+.second_section p {
+    margin: auto 280px;
+}
+
+.ios, .mac{
+    border: 1px;
+    border-radius:25px;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+.ios{
+    background-color:  hsl(171, 66%, 44%);
+    box-shadow: 0px 3px   hsl(201, 11%, 66%);
+   
+}
+
+.mac{
+    background-color:  hsl(233, 100%, 69%);
+    box-shadow: 0px 3px  hsl(201, 11%, 66%);
+}
+
+.computer_image{
+    width: 500px;
+}
+
+.section_two{
+    padding-right: 240px;
+}
+
+.section_two h2{
+  font-size: 20px;
+}
+
+.third_section{
+    display: flex;
+
+}
+
+.fourth_section{
+    margin: 30px 0px;
+}
+
+
+
+.fourth_section p{
+    margin: auto 310px;
+    font-size: 14px;
+}
+
+.devices{
+    width: 50%;
+}
+
+.fifth_section{
+    padding: 0px 100px;
+}
+
+.fifth_section div h6 {
+    margin: 20px 10px;
+    font-weight: bold;
+}
+
+
+.fifth_section div p {
+    font-size: 15px;
+    
+}
+
+.partners{
+    margin: 80px; 
+    width: 100%;
+    display: flex;
+}
+
+
+.google, .ibm, .microsoft, .hp, .vector{
+    margin-right: 105px;
+    width: 50%;
+}
+
+footer{
+   background-color: #F5F6F8;
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.footer_content div p:hover{
+    color:hsl(171, 66%, 44%) ;
+    cursor: pointer;
+}
+
+.footer_icons img:hover{
+
+    cursor: pointer;
+}
+
+.preview{
+    margin: 30px 0px;
+}
+
+
+
+@media screen and (max-width:992px){
+
+    .nav{
+        background: url(../images/bg-header-mobile.png)  no-repeat;
+        background-size: cover;
+    }
+ 
+    .computer_image{
+        width: 300px;
+    }
+
+    .first_section h1 {
+        margin: auto 30px;
+        font-size: 34px;
+        font-weight: bold;
+    }
+
+    .first_section p {
+        margin: auto 40px;
+    }
+
+    .download{
+        margin: 20px 30px;
+    }
+   
+    .ios{
+        margin-bottom: 20px;
+    }
+
+    .second_section h1 {
+        margin: auto 60px;
+        font-weight: bold;
+    }
+    .second_section p {
+        margin: auto 40px;
+    }
+
+    .section_two{
+        padding: 60px;
+    }
+
+    .section_two div h2{
+        font-weight: bold ;
+    }
+
+    .ios, .mac{
+        padding: 15px 25px;
+    }
+
+    .third_section{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .devices{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .fourth_section p{
+        margin: 0px 50px;
+        font-size: 16px;
+    }
+
+
+    .fourth_section h3{
+        margin: 0px 80px;
+        font-size: 28px;
+        font-weight: bold;
+
+    }
+
+    .fifth_section{
+        padding: 0px 30px;
+    }
+    
+    .fifth_section div h6 {
+        margin: 20px 10px;
+        font-size: 25px;
+    }
+    
+    
+    .fifth_section div p {
+        font-size: 17px;
+    }
+
+    .first_section h2 {
+        margin: auto 50px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .partners{
+        margin: 0px; 
+        margin-top: 70px;
+        margin-bottom: 70px;  
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    
+    .google, .ibm, .microsoft, .hp, .vector{
+        margin: 30px auto;
+        width: 70%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    footer{
+        flex-direction: column;
+        padding:50px 0px;
+    }
+
+
+   .footer_content{
+        margin: 30px auto;
+   }
+
+
+  
+
+
+}
