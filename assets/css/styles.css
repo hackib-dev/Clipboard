@@ -47,13 +47,13 @@ p{
 }
 .ios{
     background-color:  hsl(171, 66%, 44%);
-    box-shadow: 0px 3px   hsl(201, 11%, 66%);
+    box-shadow: 0px 3px   hsl(171, 100%, 30%);
    
 }
 
 .mac{
     background-color:  hsl(233, 100%, 69%);
-    box-shadow: 0px 3px  hsl(201, 11%, 66%);
+    box-shadow: 0px 3px  hsl(233, 100%, 20%);
 }
 
 .computer_image{
