@@ -45,6 +45,15 @@ p{
     padding: 10px 25px;
     font-size: 15px;
 }
+
+.ios:hover{
+    background-color: #5DCCBB;
+}
+
+.mac:hover{
+    background-color: #8896FF;
+}
+
 .ios{
     background-color:  hsl(171, 66%, 44%);
     box-shadow: 0px 3px   hsl(171, 100%, 30%);
@@ -53,7 +62,7 @@ p{
 
 .mac{
     background-color:  hsl(233, 100%, 69%);
-    box-shadow: 0px 3px  hsl(233, 100%, 20%);
+    box-shadow: 0px 3px  hsl(233, 66%, 55%);
 }
 
 .computer_image{
@@ -155,7 +164,7 @@ svg:hover path {
     }
 
     .first_section p {
-        margin: auto 40px;
+        margin: 10px 55px;
     }
 
     .download{
@@ -164,6 +173,11 @@ svg:hover path {
    
     .ios{
         margin-bottom: 20px;
+
+    }
+
+    .ios, .mac{
+        width: 290px;
     }
 
     .second_section h1 {
@@ -171,13 +185,16 @@ svg:hover path {
         font-weight: bold;
     }
     .second_section p {
-        margin: auto 40px;
+        margin: 10px 55px;
     }
 
     .section_two{
-        padding: 60px;
+        padding: 55px;
     }
 
+    .icloud{
+        margin: 50px auto;
+    }
     .section_two div h2{
         font-weight: bold ;
     }
@@ -193,17 +210,18 @@ svg:hover path {
     }
     .devices{
         width: 100%;
-        margin-bottom: 100px;
+
     }
 
     .fourth_section p{
-        margin: 0px 50px;
+        margin: 10px 50px;
         font-size: 16px;
     }
 
 
     .fourth_section h3{
         margin: 0px 80px;
+        margin-top: 100px;
         font-size: 28px;
         font-weight: bold;
 
