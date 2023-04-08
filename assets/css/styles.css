@@ -123,20 +123,18 @@ footer{
     margin-top: 150px;
 }
 
-.footer_content div p:hover{
-    color:hsl(171, 66%, 44%) ;
-    cursor: pointer;
-}
 
-.footer_icons img:hover{
-
-    cursor: pointer;
+.footer_icons a{
+text-decoration: none;
 }
 
 .preview{
     margin: 30px 0px;
 }
 
+svg:hover path {
+    fill: hsl(171, 66%, 44%);
+}
 
 
 @media screen and (max-width:992px){
