@@ -149,8 +149,9 @@ svg:hover path {
 @media screen and (max-width:992px){
 
     .nav{
-        background: url(../images/bg-header-mobile.png)  no-repeat;
+        background: url(../images/bg-header-mobile.png);
         background-size: cover;
+        background-repeat: no-repeat;
     }
  
     .computer_image{
